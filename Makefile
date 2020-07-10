@@ -1,6 +1,9 @@
 
+TARGET   =  local_postgrest_0
+
+# default target: help
 help:
-	@echo No help
+	@echo 'Use "build" target'
 
 build:
-	@docker build -t local_postgrest_0 .
+	docker build -t $(TARGET) .
