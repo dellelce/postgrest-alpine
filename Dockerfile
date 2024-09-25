@@ -1,5 +1,5 @@
 
-FROM alpine:3.12 as build
+FROM alpine:3.10 as build
 
 # to be set by upstream script
 ARG VERSION=7.0.1
